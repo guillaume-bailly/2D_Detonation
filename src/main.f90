@@ -20,5 +20,5 @@ program detonation_simulation
         t = t + dt
     end do
 
-    call write_results(rho, u, v, e, nx, ny)
+    call write_results(rho, u, v, e, nx, ny, "test1")
 end program detonation_simulation
